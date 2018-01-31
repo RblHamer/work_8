@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html lang="ukr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicons/favicon-16x16.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style-layout.css">
+    <title>Солодкий шеф</title>
+</head>
+
+<body>
+    <div class="karkas">
+        <header>
+            <div class="head">
+
+                <div class="text">
+                    <h1>Солодкого Вам життя!</h1>
+                    <p>Важлива життєва подія повинна запам'ятатись на усе життя!<br> Не забудьте подбати про солодке завершення
+                        Вашого свята!</p>
+                </div>
+
+            </div>
+            <nav>
+                <ul class="menu">
+                    <li><a href="index.html" class="action-button shadow animate blue">Головна</a></li>
+                    <li><a href="poradu.html" class="action-button shadow animate red">Поради</a></li>
+                    <li><a href="galery.html" class="action-button shadow animate green">Галерея</a></li>
+                    <li><a href="reviews.html" class="action-button shadow animate yellow">Відгуки</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section>
+            <h1 class="rev">Залиште свій відгук після того як скуштуєте солодощі</h1>
+            <div id="fb-root"></div>
+            <script>
+                (function (d, s, id) {
+                    var js, fjs = d.getElementsByTagName(s)[0];
+                    if (d.getElementById(id)) return;
+                    js = d.createElement(s); js.id = id;
+                    js.src = 'https://connect.facebook.net/uk_UA/sdk.js#xfbml=1&version=v2.12';
+                    fjs.parentNode.insertBefore(js, fjs);
+                }(document, 'script', 'facebook-jssdk'));
+            </script>
+            <div class="fb-comments" data-href="https://rblhamer.github.io/work_8/" data-width="100%"></div>
+        </section>
+        <footer>
+            <p>© Sweet chef. 2018<br> Designed by SRS Web Company</p>
+        </footer>
+    </div>
+    <script src="js/scroll.js"></script>
+    <script type="text/javascript" src="js/scroll_1.js"></script>
+</body>
+
+</html>
