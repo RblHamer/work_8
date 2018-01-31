@@ -1,0 +1,206 @@
+@media screen and (max-width: 1200px){
+    .mid{
+      	margin: 0 40px;
+   }
+}  
+@media (min-width: 768px) and (max-width: 1024px) {
+    	.karkas {
+    	width: 100%;
+}
+.center {
+    	display: flex;
+    	align-item: column;
+}
+.contakt {
+    	width: 100%;
+    	margin-bottom: 10px;
+    	font-size: 1.18em;
+}
+.more {
+    	margin-bottom: 0px; 
+}
+.block-main_1 {
+    	margin: 10px auto 0 auto;
+}
+.block-main_1 article {
+    	width: 100%;
+    	background-color: rgba(178, 221, 238, 0.34901960784313724);
+    	margin-bottom: 10px;
+    	padding-bottom: 10px;
+}
+.block-main_1 aside {
+    	width: 100%;
+    	background-color: rgba(178, 221, 238, 0.34901960784313724);
+    	box-shadow: 3px 3px 3px #555;
+    	margin-bottom: 20px;
+}
+.zagadky {
+    	width: 100%;
+}
+.contakt img {
+    	min-width: 0;
+}
+footer {
+    	margin: 0 auto;
+}
+  .col25{
+	width: 50%;
+}
+  .col25:nth-child(even){
+      	margin: 0;
+    }
+}
+@media (min-width: 360px) and (max-width: 767px) {
+.karkas {
+    	width: 100%;    
+}
+.head {
+    	padding: 0;     
+}
+header h1 {
+    	font-size: 2.5rem;
+}
+header p {
+    	font-size: 1.2rem;
+}
+.center {
+    	display: flex;
+    	align-item: column;
+}
+.contakt {
+    	width: 100%;
+    	margin-bottom: 10px;
+    	font-size: 1.18em;
+}
+.more {
+    	margin-bottom: 0px; 
+}
+.block-main_1 {
+    	margin: 10px auto 0 auto;
+}
+.block-main_1 article {
+    	width: 100%;
+    	background-color: rgba(178, 221, 238, 0.34901960784313724);
+    	margin-bottom: 10px;
+    	padding-bottom: 10px;
+}
+.block-main_1 aside {
+    	width: 100%;
+    	background-color: rgba(178, 221, 238, 0.34901960784313724);
+    	box-shadow: 3px 3px 3px #555;
+    	margin-bottom: 20px;
+}
+.zagadky {
+    	width: 100%;
+}
+.contakt img {
+    	min-width: 0;
+}
+.accordion img{
+    	min-width: 200px;
+}
+.accordion li{
+    	width: 25px;
+    	height: 136px;
+}    
+.accordion li:hover{
+    	width:200px;
+}
+.accordion li:nth-child(7){
+    	width: 150px;
+} 
+.accordion:hover li:nth-child(7){
+    	width: 25px;
+}
+.accordion li:nth-child(7):hover{
+    	width:150px;
+}  
+footer {
+    	margin: 0 auto;
+}
+    .mid{
+      	margin: 0 20px;
+ }
+    .col25, .col33, .col50{
+      	width: 100%;
+      	margin: 0;
+ }
+.rev {
+	font-size: 1.2rem;
+}	
+}
+@media (min-width: 110px) and (max-width: 359px) {
+.karkas {
+    	width: 100%;      
+}
+.head {
+    	padding: 0;     
+}
+header h1 {
+    	font-size: 2rem;
+}
+header p {
+    	font-size: 1.1rem;
+}
+.center {
+    	display: flex;
+    	align-item: column;
+}
+.contakt {
+    	width: 100%;
+    	margin-bottom: 10px;
+    	font-size: 1.18em;
+}
+.more {
+    	margin-bottom: 0px; 
+}
+.block-main_1 {
+    	margin: 10px auto 0 auto;
+}
+.block-main_1 article {
+    	width: 100%;
+    	background-color: rgba(178, 221, 238, 0.34901960784313724);
+    	margin-bottom: 10px;
+    	padding-bottom: 10px;
+}
+.block-main_1 aside {
+    	width: 100%;
+    	background-color: rgba(178, 221, 238, 0.34901960784313724);
+    	box-shadow: 3px 3px 3px #555;
+    	margin-bottom: 20px;
+}
+.zagadky {
+    	width: 100%;
+}
+.contakt img {
+    	min-width: 0;
+}
+.accordion img{
+    	min-width: 200px;
+}
+.accordion li{
+    	width: 25px;
+    	height: 136px;
+}    
+.accordion li:hover{
+    	width:200px;
+}
+.accordion li:nth-child(7){
+    	width: 150px;
+} 
+.accordion:hover li:nth-child(7){
+    	width: 25px;
+}
+.accordion li:nth-child(7):hover{
+    	width:150px;
+} 
+.contakt img {
+    	min-width: 0;
+}
+.rev {
+	font-size: 1rem;
+}
+footer {
+    	margin: 0 auto;
+}
+}
